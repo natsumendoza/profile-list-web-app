@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Profiles</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+
+    <link rel="stylesheet" href="../css/style.css">
+
+
+</head>
+
+<body>
+
+<div class="homebox">
+    <a href="/">Back to home</a>
+</div>
+
+<div id="wrapper" class="profile-wrapper">
+    <input type="hidden" name="profileId" id="profileId" th:value="${id}">
+
+    <div class="profile-header">
+        <img id="profile-img" src="">
+        <h1 id="profile-name"></h1>
+    </div>
+
+    <table class="profile-table">
+
+        <tr>
+            <td><h4>ID:</h4></td>
+            <td><span id="profile-id"></span></td>
+        </tr>
+
+        <tr>
+            <td><h4>Profile:</h4></td>
+            <td><span id="profile-description"></span></td>
+        </tr>
+
+        <tr>
+            <td><h4>Email:</h4></td>
+            <td><span id="profile-email"></span></td>
+        </tr>
+        <tr>
+            <td><h4>Phone:</h4></td>
+            <td><span id="profile-phone"></span></td>
+        </tr>
+
+        <tr>
+            <td><h4>Address:</h4></td>
+            <td><span id="profile-address"></span></td>
+        </tr>
+
+        <tr>
+            <td><h4>Age:</h4></td>
+            <td><span id="profile-age"></span></td>
+        </tr>
+
+        <tr>
+            <td><h4>Balance:</h4></td>
+            <td><span id="profile-balance"></span></td>
+        </tr>
+
+    </table>
+
+</div>
+
+<script type="text/javascript" src='../js/scripts.js'></script>
+<script type="text/javascript" src='../js/profile.js'></script>
+
+</body>
+
+</html>

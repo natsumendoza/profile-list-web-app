@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 
 <head>
     <meta charset="UTF-8">
@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 
 
 </head>
@@ -25,11 +25,13 @@
 
 <div id="wrapper">
 
+    <input type="hidden" name="query" id="query" th:value="${query}">
+
 </div>
 
 <!-- see scripts and profiles js file for table loading using ajax-->
-<script type="text/javascript" src='js/scripts.js'></script>
-<script type="text/javascript" src='js/profiles.js'></script>
+<script type="text/javascript" src='../js/scripts.js'></script>
+<script type="text/javascript" src='../js/search.js'></script>
 
 </body>
 

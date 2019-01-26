@@ -41,6 +41,8 @@ public class Profile {
     @Expose
     private Integer dateRegistered;
 
+    
+
     public String getId() {
         return id;
     }
