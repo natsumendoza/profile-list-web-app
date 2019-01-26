@@ -1,6 +1,13 @@
 # profile-list-web-app
 Project that consumes list of profiles API and display it in the UI.
 
+## Features
+
+* List all profiles in a table
+* Search profile by name
+* Sorting by name, age and active status (just click the header of table to sort).
+* View profile details by clicking the profile name.
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development.
